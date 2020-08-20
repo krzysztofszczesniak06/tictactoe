@@ -1,0 +1,91 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+#home
+{
+  width: 100%;
+  height: 100vh;
+  background: #E1FFC2;
+}
+
+#nav
+{
+  width: 100%;
+  height: 10vh;
+  background: #111;
+}
+
+#main
+{
+  width: 50%;;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bot
+{
+  width: 100%;
+  height: 10vh;
+  background: #111;
+}
+
+#hello
+{
+  width: 100%;
+  height: 20%;;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+#message
+{
+  width: 400px;
+  height: 400px;
+  float: left;
+  border: 5px solid black;
+  text-align: center;
+}
+
+#plansza
+{
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+.pole{
+  float: left;
+  width: 125px;
+  height: 125px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 4em;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#nrgracza
+{
+  font-size: 2.5em;
+  font-family: Arial;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+#again
+{
+  font-family: Arial;
+  font-weight: bold;
+  cursor: pointer;
+}
